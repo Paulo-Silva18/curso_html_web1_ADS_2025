@@ -1,12 +1,28 @@
-body{
-    background: red;
-}
-h1{
-    color: blue;
-    font-size: 88px;
+*{
+    padding: 20px;
 }
 
-h2{
-    color: darkmagenta;
-    font-size: 100px;
+body{
+    background: rgb(235, 235, 235);
+}
+.vermelho {
+    color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+.font-30{
+    font-size: 30px;
+}
+
+#teste{
+    color: blue;
+    background: yellow;
+}
+
+h1, p {
+    color: red;
+    text-align: center;
 }
