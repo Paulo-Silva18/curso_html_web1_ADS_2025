@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
+
+body{
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    background: black;
+    font-family: "Anton", sans-serif;;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    text-indent: 60px;
+    font-family: "Indie Flower", cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.exemplo-back{
+    height: 100px;
+    background: url("../img/pexels-lkloeppel-466685.jpg") no-repeat center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.botao{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao:hover{
+    background: blue;
+}
+
+.teste{
+    max-width: 800px;
+    height: 150px;
+    background: cyan;
+}
+
+a.botao1{
+    background: darkgreen;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border: 4px solid greenyellow;
+    border-radius: 5px;
+}
+
+a.botao1:hover{
+    background: rgb(3, 174, 3);
+    padding: 12px;
+    border: 4px solid rgb(61, 98, 6);
+}
+
+a.botao2{
+    text-decoration: none;
+    padding: 10px;
+    border: 5px double blue;
+    color: blue;
+}
+
+a.botao2:hover{
+    text-decoration: underline;
+    padding: 8px;
+    color: white;
+    background: blue;
+}
+
+a.botao3{
+    text-decoration: none;
+    color: black;
+}
+
+a.botao3:hover{
+    border-bottom: 5px solid rgb(215, 3, 3);
+}
+
+a.botao4{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+
+a.botao4:hover{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+a.botao5{
+    cursor: help;
+}
